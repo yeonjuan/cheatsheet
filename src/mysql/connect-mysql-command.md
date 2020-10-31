@@ -1,7 +1,3 @@
-<!--
-@category mysql
-@keywords connect, command
--->
 ## Connecting to the MySQL
 
 Connecting to the MySQL using command.

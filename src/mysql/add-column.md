@@ -1,7 +1,3 @@
-<!--
-@category mysql
-@keywords add column, 컬럼 추가
--->
 ## Add column
 
 Adding a new column in the existing table.
