@@ -1,0 +1,23 @@
+{
+  "name": "cheatsheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeonjuan/cheatsheet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeonjuan/cheatsheet/issues"
+  },
+  "homepage": "https://github.com/yeonjuan/cheatsheet#readme",
+  "devDependencies": {
+    "eslint": "^7.12.1"
+  }
+}
