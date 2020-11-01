@@ -1,4 +1,9 @@
-## DNS lookup
+<!--
+{
+  "section" : "node"
+}
+-->
+### DNS lookup
 
 Simple dns lookup.
 
