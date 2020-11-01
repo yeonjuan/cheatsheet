@@ -7,7 +7,27 @@
   1. [docker](#docker)
 
 # node
+- [DNS lookup](#dns-lookup)
+<!--
+{
+  "section" : "node"
+}
+-->
+### DNS lookup
 
+Simple dns lookup.
+
+```js
+const dns = require('dns');
+
+dns.lookup('google.com', (err, address, family) => {
+  // DNS server IP
+  console.log(address); // 172.217.25.110
+
+  // IPv4 or IPv6
+  console.log(address, family); // 4
+});
+```
 # mysql
 - [Add column](#add-column)
 - [Connecting to the MySQL](#connecting-to-the-mysql)
@@ -61,4 +81,30 @@ $ kubectl create secret generic {secret name} --from-file={file path}
 $ kubectl create secret tls {secret name} --key {key file path} --cert {cert file path}
 ```
 # docker
+- [Build image](#build-image)
+- [Push image](#push-image)
+<!--
+{
+  "section" : "docker"
+}
+-->
+### Build image
 
+Build a docker image with a specified docker file.
+
+```bash
+$ docker build -t {image name} -f {docker file path} {path}
+```
+
+<!--
+{
+  "section" : "docker"
+}
+-->
+### Push image
+
+Push docker image.
+
+```bash
+$ docker push {docker image name}
+```
