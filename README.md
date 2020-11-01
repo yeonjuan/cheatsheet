@@ -9,8 +9,8 @@
 # node
 
 # mysql
-- [Add column](#Add-column)
-- [Connecting to the MySQL](#Connecting-to-the-MySQL)
+- [Add column](#add-column)
+- [Connecting to the MySQL](#connecting-to-the-mysql)
 <!--
 {
   "section" : "mysql"
@@ -37,8 +37,8 @@ Connecting to the MySQL using command.
 $ mysql -h 123.456.7.89 -P 3306 -u root -p
 ```
 # kubernetes
-- [Mount secret file](#Mount-secret-file)
-- [Mount SSL](#Mount-SSL)
+- [Mount secret file](#mount-secret-file)
+- [Mount SSL](#mount-ssl)
 <!--
 {
   "section" : "kubernetes"
