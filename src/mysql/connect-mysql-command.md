@@ -1,4 +1,9 @@
-## Connecting to the MySQL
+<!--
+{
+  "section" : "mysql"
+}
+-->
+### Connecting to the MySQL
 
 Connecting to the MySQL using command.
 

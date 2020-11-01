@@ -1,4 +1,9 @@
-## Add column
+<!--
+{
+  "section" : "mysql"
+}
+-->
+### Add column
 
 Adding a new column in the existing table.
 

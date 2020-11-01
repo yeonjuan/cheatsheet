@@ -1,4 +1,9 @@
-## Mount secret file
+<!--
+{
+  "section" : "kubernetes"
+}
+-->
+### Mount secret file
 
 ```bash
 $ kubectl create secret generic {secret name} --from-file={file path}
