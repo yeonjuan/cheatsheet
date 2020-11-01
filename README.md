@@ -7,7 +7,10 @@
   1. [docker](#docker)
 
 # node
+
 # mysql
+- [Add column](#Add-column)
+- [Connecting to the MySQL](#Connecting-to-the-MySQL)
 <!--
 {
   "section" : "mysql"
@@ -34,6 +37,8 @@ Connecting to the MySQL using command.
 $ mysql -h 123.456.7.89 -P 3306 -u root -p
 ```
 # kubernetes
+- [Mount secret file](#Mount-secret-file)
+- [Mount SSL](#Mount-SSL)
 <!--
 {
   "section" : "kubernetes"
@@ -56,3 +61,4 @@ $ kubectl create secret generic {secret name} --from-file={file path}
 $ kubectl create secret tls {secret name} --key {key file path} --cert {cert file path}
 ```
 # docker
+
