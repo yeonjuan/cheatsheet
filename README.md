@@ -110,7 +110,21 @@ Push docker image.
 $ docker push {docker image name}
 ```
 # argo
+- [Create cron workflow](#create-cron-workflow)
 - [Submit workflow](#submit-workflow)
+<!--
+{
+  "section" : "argo"
+}
+-->
+### Create cron workflow
+
+Create cron workflow with argo cli.
+
+```bash
+$ argo cron create {cron-workflow.yaml}
+```
+
 <!--
 {
   "section" : "argo"
@@ -121,5 +135,5 @@ $ docker push {docker image name}
 Submit workflow with argo cli.
 
 ```bash
-$ argo submit workflow.yaml
+$ argo submit {workflow.yaml}
 ```

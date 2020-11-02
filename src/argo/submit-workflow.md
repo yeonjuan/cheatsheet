@@ -8,5 +8,5 @@
 Submit workflow with argo cli.
 
 ```bash
-$ argo submit workflow.yaml
+$ argo submit {workflow.yaml}
 ```
