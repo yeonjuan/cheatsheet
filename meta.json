@@ -3,6 +3,7 @@
     "node",
     "mysql",
     "kubernetes",
-    "docker"
+    "docker",
+    "argo"
   ]
 }

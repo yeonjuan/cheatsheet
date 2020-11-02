@@ -5,6 +5,7 @@
   1. [mysql](#mysql)
   1. [kubernetes](#kubernetes)
   1. [docker](#docker)
+  1. [argo](#argo)
 
 # node
 - [DNS lookup](#dns-lookup)
@@ -107,4 +108,18 @@ Push docker image.
 
 ```bash
 $ docker push {docker image name}
+```
+# argo
+- [Submit workflow](#submit-workflow)
+<!--
+{
+  "section" : "argo"
+}
+-->
+### Submit workflow
+
+Submit workflow with argo cli.
+
+```bash
+$ argo submit workflow.yaml
 ```
