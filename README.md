@@ -9,6 +9,7 @@
 
 # node
 - [DNS lookup](#dns-lookup)
+- [Remove directory](#remove-directory)
 <!--
 {
   "section" : "node"
@@ -28,6 +29,20 @@ dns.lookup('google.com', (err, address, family) => {
   // IPv4 or IPv6
   console.log(address, family); // 4
 });
+```
+
+<!--
+{
+  "section" : "node"
+}
+-->
+### Remove directory
+
+Removes the entire directory recursively.
+
+```js
+const fs = require('fs');
+fs.rmdirSync('directory/path', { recursive: true })
 ```
 # mysql
 - [Add column](#add-column)
