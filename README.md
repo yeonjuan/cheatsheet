@@ -2,6 +2,7 @@
 
 ## Table of Contents
   1. [node](#node)
+  1. [git](#git)
   1. [mysql](#mysql)
   1. [kubernetes](#kubernetes)
   1. [docker](#docker)
@@ -43,6 +44,24 @@ Removes the entire directory recursively.
 ```js
 const fs = require('fs');
 fs.rmdirSync('directory/path', { recursive: true })
+```
+# git
+- [Sync forked repo](#sync-forked-repo)
+<!--
+{
+  "section" : "git"
+}
+-->
+### Sync forked repo
+
+Sync forked repo.
+
+```bash
+$ git remote add upstream {upstream github.git}
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+$ git push origin master
 ```
 # mysql
 - [Add column](#add-column)
