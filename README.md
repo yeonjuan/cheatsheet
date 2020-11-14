@@ -46,7 +46,21 @@ const fs = require('fs');
 fs.rmdirSync('directory/path', { recursive: true })
 ```
 # git
+- [Delete remote tag](#delete-remote-tag)
 - [Sync forked repo](#sync-forked-repo)
+<!--
+{
+  "section" : "git"
+}
+-->
+### Delete remote tag
+
+Delete remote tag.
+
+```bash
+$ git push --delete origin {tagname}
+```
+
 <!--
 {
   "section" : "git"
