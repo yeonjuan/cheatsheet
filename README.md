@@ -185,3 +185,9 @@ Submit workflow with argo cli.
 ```bash
 $ argo submit {workflow.yaml}
 ```
+
+### Access the argo workflow ui
+
+```bash
+$ kubectl -n argo port-forward svc/argo-server 2746:2746
+```
